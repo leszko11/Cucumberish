@@ -19,9 +19,9 @@
      targets: [
          .target(
              name: "Cucumberish",
-             dependencies: []),
+             dependencies: [],
              path: "./Cucumberish/Sources",
-             publicHeadersPath: "./Cucumberish/Public Headers",
+             publicHeadersPath: "./Cucumberish/Public Headers"),
          .testTarget(
              name: "CucumberishLibraryTest",
              dependencies: ["Cucumberish"]),
