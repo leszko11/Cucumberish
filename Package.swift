@@ -1,4 +1,4 @@
-// // swift-tools-version:3.0
+// // swift-tools-version:5.2
  // The swift-tools-version declares the minimum version of Swift required to build this package.
 
  import PackageDescription
@@ -24,5 +24,5 @@
              name: "CucumberishLibraryTest",
              dependencies: ["Cucumberish"]),
      ],
-     swiftLanguageVersions: [.v3]
+     swiftLanguageVersions: [.v5]
  )
